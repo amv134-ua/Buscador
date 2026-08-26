@@ -1,0 +1,27 @@
+# ---- Binarios y objetos de compilacion ----
+*.o
+buscador
+mem
+trec_eval_8_1_linux/*.exe
+trec_eval_8_1_linux/trec_eval
+
+# ---- Ficheros generados por el propio programa ----
+*.tk
+indice_*/
+salida_*.txt
+res--*.res
+res--*.txt
+corrigeUno.res
+
+# ---- Corpus completo ----
+# Son 717 prospectos (21 MB) descargados de terceros. En el repositorio se deja
+# solo una muestra para poder probar el buscador; ver corpus/LEEME.md
+corpus/*
+!corpus/LEEME.md
+!corpus/aas-*.txt
+!corpus/abilify-1?mg-28-comprimidos.txt
+!corpus/abrilar-jarabe-frasco-de-100-ml.txt
+!corpus/accolate-20-mg-comprimidos-recubiertos-60-comprimidos.txt
+
+# ---- Sistema ----
+.DS_Store
