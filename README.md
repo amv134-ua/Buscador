@@ -28,13 +28,13 @@ que permite medir objetivamente la calidad de los resultados.
 
 ## Arquitectura
 
-| Módulo | Líneas | Responsabilidad |
+| Módulo  | Responsabilidad |
 |---|---:|---|
-| `tokenizador` | 501 | Trocear el texto en términos |
-| `stemmer` | 609 | Reducir cada palabra a su raíz |
-| `indexadorHash` | 707 | Índice invertido con tablas hash |
-| `indexadorInformacion` | 120 | Estructuras de datos del índice |
-| `buscador` | 710 | Modelos de ranking y consultas |
+| `tokenizador`  | Trocear el texto en términos |
+| `stemmer`  | Reducir cada palabra a su raíz |
+| `indexadorHash` | Índice invertido con tablas hash |
+| `indexadorInformacion`  | Estructuras de datos del índice |
+| `buscador`  | Modelos de ranking y consultas |
 
 ### `Tokenizador`
 
